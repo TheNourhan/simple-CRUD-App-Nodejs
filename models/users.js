@@ -23,8 +23,3 @@ const userSchema = new mongoose.Schema({
     },
 });
 module.exports = mongoose.model("User", userSchema);
-
-/**
- * 
- * DB_URL=mongodb+srv://nourhanmhasan:AmIz2cE2EFGY1vhQ@cluster0.exilwpu.mongodb.net/CRUD_APP?retryWrites=true&w=majority
- */
